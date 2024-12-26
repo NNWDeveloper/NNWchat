@@ -4,9 +4,9 @@ import requests
 import json
 
 # Adresa PHP skriptu na webu pro odeslání zpráv
-PHP_SCRIPT_URL = "http://nonamewebsite.euweb.cz/python_chat/send_message.php"
+PHP_SCRIPT_URL = "http://example.com/send_message.php"
 # URL pro přímé načítání JSON souboru
-GET_MESSAGES_URL = "http://nonamewebsite.euweb.cz/python_chat/data.json"
+GET_MESSAGES_URL = "http://example.com/data.json"
 
 # Funkce pro odesílání zprávy na server
 def send_message():

@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['password']) && isset(
     $messageId = $_POST['message_id'];
 
     // Ověříme heslo
-    if ($password === 'password123') {
+    if ($password === 'tajneheslo') {
         if (deleteMessage($messageId)) {
             echo "Zpráva byla úspěšně smazána.";
         } else {

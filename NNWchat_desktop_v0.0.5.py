@@ -5,9 +5,9 @@ import json
 import time
 
 # Adresa PHP skriptu na webu pro odeslání zpráv
-PHP_SCRIPT_URL = "http://nnwchat.nnwdev.fun/apps/web/send_message.php"
+PHP_SCRIPT_URL = "http://yourserver.com/chat/send_message.php"
 # URL pro přímé načítání JSON souboru
-GET_MESSAGES_URL = "http://nnwchat.nnwdev.fun/apps/web/data.json"
+GET_MESSAGES_URL = "http://yourserver.com/chat/data.json"
 
 # Funkce pro odesílání zprávy na server
 def send_message():
@@ -88,5 +88,6 @@ load_messages()
 
 # Spuštění hlavní smyčky
 root.mainloop()
+
 
 
